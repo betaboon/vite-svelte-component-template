@@ -1,0 +1,22 @@
+{
+  "name": "svelte-component-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.5",
+    "svelte": "^3.35.0",
+    "vite": "^2.1.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "svelte": "src/index.js",
+  "main": "dist/svelte-component-template.umd.js",
+  "module": "dist/svelte-component-template.es.js"
+}
