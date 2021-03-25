@@ -5,10 +5,14 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "test": "mocha-vite-puppeteer --reporter spec",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.5",
+    "@testing-library/svelte": "^3.0.3",
+    "chai": "^4.3.4",
+    "mocha-vite-puppeteer": "^1.3.0",
     "svelte": "^3.35.0",
     "vite": "^2.1.0"
   },
